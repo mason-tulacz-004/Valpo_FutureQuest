@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_13"
+type="Resource"
+uid="uid://cwp0h0hal774n"
+path="res://.godot/imported/WestBorder.dialogue-a1268230dc25f8e25fec15d6eecf2949.tres"
+
+[deps]
+
+source_file="res://dialogue/WestBorder.dialogue"
+dest_files=["res://.godot/imported/WestBorder.dialogue-a1268230dc25f8e25fec15d6eecf2949.tres"]
+
+[params]
+
+defaults=true

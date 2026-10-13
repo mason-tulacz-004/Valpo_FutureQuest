@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_13"
+type="Resource"
+uid="uid://d2fixn27m1n2s"
+path="res://.godot/imported/ChristopherCenterLibrary.dialogue-199aa0812a53d96e728428a201fb3ef4.tres"
+
+[deps]
+
+source_file="res://dialogue/ChristopherCenterLibrary.dialogue"
+dest_files=["res://.godot/imported/ChristopherCenterLibrary.dialogue-199aa0812a53d96e728428a201fb3ef4.tres"]
+
+[params]
+
+defaults=true

@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_13"
+type="Resource"
+uid="uid://badxcbhnnb6u"
+path="res://.godot/imported/MuellerHall.dialogue-561cdb229593504ae509db5e9fe92baf.tres"
+
+[deps]
+
+source_file="res://dialogue/MuellerHall.dialogue"
+dest_files=["res://.godot/imported/MuellerHall.dialogue-561cdb229593504ae509db5e9fe92baf.tres"]
+
+[params]
+
+defaults=true

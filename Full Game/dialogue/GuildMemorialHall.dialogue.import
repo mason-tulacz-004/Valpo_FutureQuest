@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_13"
+type="Resource"
+uid="uid://by5kroti2vw3g"
+path="res://.godot/imported/GuildMemorialHall.dialogue-d02d52510f3df0f2e6cffaf9db7e66b6.tres"
+
+[deps]
+
+source_file="res://dialogue/GuildMemorialHall.dialogue"
+dest_files=["res://.godot/imported/GuildMemorialHall.dialogue-d02d52510f3df0f2e6cffaf9db7e66b6.tres"]
+
+[params]
+
+defaults=true

@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_13"
+type="Resource"
+uid="uid://d1d0f08b6sv8j"
+path="res://.godot/imported/KallayChristopherHall.dialogue-970c2104e1fd5f795660bffe6c804f5e.tres"
+
+[deps]
+
+source_file="res://dialogue/KallayChristopherHall.dialogue"
+dest_files=["res://.godot/imported/KallayChristopherHall.dialogue-970c2104e1fd5f795660bffe6c804f5e.tres"]
+
+[params]
+
+defaults=true

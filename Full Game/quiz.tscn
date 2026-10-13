@@ -1,0 +1,573 @@
+[gd_scene load_steps=28 format=3 uid="uid://c76s8056lb1wh"]
+
+[ext_resource type="Script" path="res://quiz.gd" id="1_b73jp"]
+[ext_resource type="Texture2D" uid="uid://3v0qk7it83ww" path="res://Static Sprites/scroll.png" id="1_myqok"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_tbms6"]
+bg_color = Color(0.831373, 0.686275, 0.215686, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_riccm"]
+bg_color = Color(0.831373, 0.686275, 0.215686, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_udjs8"]
+bg_color = Color(0.831373, 0.686275, 0.215686, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_kvdvm"]
+bg_color = Color(0.831373, 0.686275, 0.215686, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_q445y"]
+bg_color = Color(0.831373, 0.686275, 0.215686, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_2nd6t"]
+bg_color = Color(0.831373, 0.686275, 0.215686, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_i2ugi"]
+bg_color = Color(0.831373, 0.686275, 0.215686, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_h6p35"]
+bg_color = Color(0.831373, 0.686275, 0.215686, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_wa87x"]
+bg_color = Color(0.831373, 0.686275, 0.215686, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ui5hu"]
+bg_color = Color(0.831373, 0.686275, 0.215686, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_jd4m7"]
+bg_color = Color(0.831373, 0.686275, 0.215686, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_og8n0"]
+bg_color = Color(0.831373, 0.686275, 0.215686, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_m87r1"]
+bg_color = Color(0.831373, 0.686275, 0.215686, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_l77iy"]
+bg_color = Color(0.831373, 0.686275, 0.215686, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_w3xe0"]
+bg_color = Color(0.831373, 0.686275, 0.215686, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_vfe63"]
+bg_color = Color(0.831373, 0.686275, 0.215686, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_te0h5"]
+bg_color = Color(0.831373, 0.686275, 0.215686, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_5v43x"]
+bg_color = Color(0.831373, 0.686275, 0.215686, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ibljt"]
+bg_color = Color(0.831373, 0.686275, 0.215686, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_7p8as"]
+bg_color = Color(0.831373, 0.686275, 0.215686, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_a4vcg"]
+bg_color = Color(0.831373, 0.686275, 0.215686, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_jdj2q"]
+bg_color = Color(0.831373, 0.686275, 0.215686, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_04esy"]
+bg_color = Color(0.831373, 0.686275, 0.215686, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_tb06u"]
+bg_color = Color(0.831373, 0.686275, 0.215686, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_h8dyq"]
+bg_color = Color(0.831373, 0.686275, 0.215686, 1)
+
+[node name="Quiz" type="Control"]
+z_index = 5
+layout_mode = 3
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_b73jp")
+
+[node name="NinePatchRect" type="NinePatchRect" parent="."]
+layout_mode = 0
+offset_left = -1796.0
+offset_top = -1516.0
+offset_right = -1200.0
+offset_bottom = -1084.0
+scale = Vector2(6, 7.2)
+texture = ExtResource("1_myqok")
+region_rect = Rect2(0, 0, 1536, 1024)
+
+[node name="Title" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 0.5
+offset_left = -120.0
+offset_top = -483.0
+offset_right = 162.0
+offset_bottom = -420.0
+grow_horizontal = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 45
+text = "Part 1"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Instructions" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -461.0
+offset_top = -434.0
+offset_right = 509.0
+offset_bottom = -371.0
+grow_horizontal = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 45
+text = "Answer based on your desire to do each task"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Submit" type="Button" parent="."]
+layout_mode = 0
+offset_left = 807.0
+offset_top = 390.0
+offset_right = 970.0
+offset_bottom = 461.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 45
+theme_override_styles/normal = SubResource("StyleBoxFlat_tbms6")
+text = "Submit"
+
+[node name="Realistic1" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -1013.0
+offset_top = -363.0
+offset_right = -534.0
+offset_bottom = -300.0
+grow_horizontal = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 35
+text = "Build kitchen cabinets
+"
+vertical_alignment = 1
+
+[node name="YesButton" type="Button" parent="Realistic1"]
+layout_mode = 0
+offset_left = 961.0
+offset_right = 1213.0
+offset_bottom = 71.0
+theme_override_font_sizes/font_size = 35
+theme_override_styles/normal = SubResource("StyleBoxFlat_riccm")
+action_mode = 0
+text = "Yay"
+
+[node name="NoButton" type="Button" parent="Realistic1"]
+layout_mode = 0
+offset_left = 1278.0
+offset_top = 1.0
+offset_right = 1479.0
+offset_bottom = 72.0
+theme_override_font_sizes/font_size = 35
+theme_override_styles/normal = SubResource("StyleBoxFlat_udjs8")
+text = "Nay"
+
+[node name="Realistic2" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -1013.0
+offset_top = -291.0
+offset_right = -636.0
+offset_bottom = -162.0
+grow_horizontal = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 35
+text = "Lay brick or tile
+
+"
+vertical_alignment = 1
+
+[node name="YesButton" type="Button" parent="Realistic2"]
+layout_mode = 0
+offset_left = 961.0
+offset_top = -1.0
+offset_right = 1213.0
+offset_bottom = 70.0
+theme_override_font_sizes/font_size = 35
+theme_override_styles/normal = SubResource("StyleBoxFlat_kvdvm")
+text = "Yay"
+
+[node name="NoButton" type="Button" parent="Realistic2"]
+layout_mode = 0
+offset_left = 1278.0
+offset_right = 1479.0
+offset_bottom = 71.0
+theme_override_font_sizes/font_size = 35
+theme_override_styles/normal = SubResource("StyleBoxFlat_q445y")
+text = "Nay"
+
+[node name="Investigative1" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -1013.0
+offset_top = -223.0
+offset_right = -485.0
+offset_bottom = -94.0
+grow_horizontal = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 35
+text = "Develop a new medicine
+
+"
+vertical_alignment = 1
+
+[node name="YesButton" type="Button" parent="Investigative1"]
+layout_mode = 0
+offset_left = 961.0
+offset_right = 1213.0
+offset_bottom = 71.0
+theme_override_font_sizes/font_size = 35
+theme_override_styles/normal = SubResource("StyleBoxFlat_2nd6t")
+text = "Yay"
+
+[node name="NoButton" type="Button" parent="Investigative1"]
+layout_mode = 0
+offset_left = 1278.0
+offset_right = 1479.0
+offset_bottom = 71.0
+theme_override_font_sizes/font_size = 35
+theme_override_styles/normal = SubResource("StyleBoxFlat_i2ugi")
+text = "Nay"
+
+[node name="Investigative2" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -1013.0
+offset_top = -154.0
+offset_right = -206.0
+offset_bottom = -25.0
+grow_horizontal = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 35
+text = "Study ways to reduce water pollution
+
+"
+vertical_alignment = 1
+
+[node name="YesButton" type="Button" parent="Investigative2"]
+layout_mode = 0
+offset_left = 961.0
+offset_right = 1213.0
+offset_bottom = 71.0
+theme_override_font_sizes/font_size = 35
+theme_override_styles/normal = SubResource("StyleBoxFlat_h6p35")
+text = "Yay"
+
+[node name="NoButton" type="Button" parent="Investigative2"]
+layout_mode = 0
+offset_left = 1278.0
+offset_right = 1479.0
+offset_bottom = 71.0
+theme_override_font_sizes/font_size = 35
+theme_override_styles/normal = SubResource("StyleBoxFlat_wa87x")
+text = "Nay"
+
+[node name="Artistic1" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -1013.0
+offset_top = -87.0
+offset_right = -570.0
+offset_bottom = 42.0
+grow_horizontal = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 35
+text = "Write books or plays
+
+"
+vertical_alignment = 1
+
+[node name="YesButton" type="Button" parent="Artistic1"]
+layout_mode = 0
+offset_left = 961.0
+offset_right = 1213.0
+offset_bottom = 71.0
+theme_override_font_sizes/font_size = 35
+theme_override_styles/normal = SubResource("StyleBoxFlat_ui5hu")
+text = "Yay"
+
+[node name="NoButton" type="Button" parent="Artistic1"]
+layout_mode = 0
+offset_left = 1278.0
+offset_right = 1479.0
+offset_bottom = 71.0
+theme_override_font_sizes/font_size = 35
+theme_override_styles/normal = SubResource("StyleBoxFlat_jd4m7")
+text = "Nay"
+
+[node name="Artistic2" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -1013.0
+offset_top = -19.0
+offset_right = -451.0
+offset_bottom = 110.0
+grow_horizontal = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 35
+text = "Play a musical instrument
+
+"
+vertical_alignment = 1
+
+[node name="YesButton" type="Button" parent="Artistic2"]
+layout_mode = 0
+offset_left = 961.0
+offset_right = 1213.0
+offset_bottom = 71.0
+theme_override_font_sizes/font_size = 35
+theme_override_styles/normal = SubResource("StyleBoxFlat_og8n0")
+text = "Yay"
+
+[node name="NoButton" type="Button" parent="Artistic2"]
+layout_mode = 0
+offset_left = 1278.0
+offset_right = 1479.0
+offset_bottom = 71.0
+theme_override_font_sizes/font_size = 35
+theme_override_styles/normal = SubResource("StyleBoxFlat_m87r1")
+text = "Nay"
+
+[node name="Social1" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -1013.0
+offset_top = 52.0
+offset_right = -164.0
+offset_bottom = 181.0
+grow_horizontal = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 35
+text = "Teach an individual an exercise routine
+
+"
+vertical_alignment = 1
+
+[node name="YesButton" type="Button" parent="Social1"]
+layout_mode = 0
+offset_left = 961.0
+offset_right = 1213.0
+offset_bottom = 71.0
+theme_override_font_sizes/font_size = 35
+theme_override_styles/normal = SubResource("StyleBoxFlat_l77iy")
+text = "Yay"
+
+[node name="NoButton" type="Button" parent="Social1"]
+layout_mode = 0
+offset_left = 1278.0
+offset_right = 1479.0
+offset_bottom = 71.0
+theme_override_font_sizes/font_size = 35
+theme_override_styles/normal = SubResource("StyleBoxFlat_w3xe0")
+text = "Nay"
+
+[node name="Social2" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -1013.0
+offset_top = 86.0
+offset_right = 65.0
+offset_bottom = 215.0
+grow_horizontal = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 35
+text = "Help people with personal or emotional problems
+"
+vertical_alignment = 1
+
+[node name="YesButton" type="Button" parent="Social2"]
+layout_mode = 0
+offset_left = 961.0
+offset_top = 35.0
+offset_right = 1213.0
+offset_bottom = 106.0
+theme_override_font_sizes/font_size = 35
+theme_override_styles/normal = SubResource("StyleBoxFlat_vfe63")
+text = "Yay"
+
+[node name="NoButton" type="Button" parent="Social2"]
+layout_mode = 0
+offset_left = 1278.0
+offset_top = 37.0
+offset_right = 1479.0
+offset_bottom = 108.0
+theme_override_font_sizes/font_size = 35
+theme_override_styles/normal = SubResource("StyleBoxFlat_te0h5")
+text = "Nay"
+
+[node name="Enterprising1" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -1013.0
+offset_top = 188.0
+offset_right = -363.0
+offset_bottom = 317.0
+grow_horizontal = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 35
+text = "Buy and sell stocks and bonds
+
+"
+vertical_alignment = 1
+
+[node name="YesButton" type="Button" parent="Enterprising1"]
+layout_mode = 0
+offset_left = 961.0
+offset_right = 1213.0
+offset_bottom = 71.0
+theme_override_font_sizes/font_size = 35
+theme_override_styles/normal = SubResource("StyleBoxFlat_5v43x")
+text = "Yay"
+
+[node name="NoButton" type="Button" parent="Enterprising1"]
+layout_mode = 0
+offset_left = 1278.0
+offset_top = 2.0
+offset_right = 1479.0
+offset_bottom = 73.0
+theme_override_font_sizes/font_size = 35
+theme_override_styles/normal = SubResource("StyleBoxFlat_ibljt")
+text = "Nay"
+
+[node name="Enterprising2" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -1013.0
+offset_top = 259.0
+offset_right = -552.0
+offset_bottom = 388.0
+grow_horizontal = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 35
+text = "Manage a retail store
+
+"
+vertical_alignment = 1
+
+[node name="YesButton" type="Button" parent="Enterprising2"]
+layout_mode = 0
+offset_left = 961.0
+offset_right = 1213.0
+offset_bottom = 71.0
+theme_override_font_sizes/font_size = 35
+theme_override_styles/normal = SubResource("StyleBoxFlat_7p8as")
+text = "Yay"
+
+[node name="NoButton" type="Button" parent="Enterprising2"]
+layout_mode = 0
+offset_left = 1278.0
+offset_right = 1479.0
+offset_bottom = 71.0
+theme_override_font_sizes/font_size = 35
+theme_override_styles/normal = SubResource("StyleBoxFlat_a4vcg")
+text = "Nay"
+
+[node name="Conventional1" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -1013.0
+offset_top = 323.0
+offset_right = 39.0
+offset_bottom = 452.0
+grow_horizontal = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 35
+text = "Develop a spreadsheet using computer software
+
+"
+vertical_alignment = 1
+
+[node name="YesButton" type="Button" parent="Conventional1"]
+layout_mode = 0
+offset_left = 961.0
+offset_right = 1213.0
+offset_bottom = 71.0
+theme_override_font_sizes/font_size = 35
+theme_override_styles/normal = SubResource("StyleBoxFlat_jdj2q")
+text = "Yay"
+
+[node name="NoButton" type="Button" parent="Conventional1"]
+layout_mode = 0
+offset_left = 1278.0
+offset_top = 2.0
+offset_right = 1479.0
+offset_bottom = 73.0
+theme_override_font_sizes/font_size = 35
+theme_override_styles/normal = SubResource("StyleBoxFlat_04esy")
+text = "Nay"
+
+[node name="Conventional2" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -1013.0
+offset_top = 398.0
+offset_right = -421.0
+offset_bottom = 527.0
+grow_horizontal = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 35
+text = "Proofread records or forms
+
+"
+vertical_alignment = 1
+
+[node name="YesButton" type="Button" parent="Conventional2"]
+layout_mode = 0
+offset_left = 961.0
+offset_top = -3.0
+offset_right = 1213.0
+offset_bottom = 68.0
+theme_override_font_sizes/font_size = 35
+theme_override_styles/normal = SubResource("StyleBoxFlat_tb06u")
+text = "Yay
+"
+
+[node name="NoButton" type="Button" parent="Conventional2"]
+layout_mode = 0
+offset_left = 1278.0
+offset_top = -3.0
+offset_right = 1479.0
+offset_bottom = 68.0
+theme_override_font_sizes/font_size = 35
+theme_override_styles/normal = SubResource("StyleBoxFlat_h8dyq")
+text = "Nay"
+
+[connection signal="pressed" from="Submit" to="." method="_submit"]

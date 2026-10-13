@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_13"
+type="Resource"
+uid="uid://bcibvmkitsjyf"
+path="res://.godot/imported/BeaconHall.dialogue-5f4415374c46ba60ede964a6813985ec.tres"
+
+[deps]
+
+source_file="res://dialogue/BeaconHall.dialogue"
+dest_files=["res://.godot/imported/BeaconHall.dialogue-5f4415374c46ba60ede964a6813985ec.tres"]
+
+[params]
+
+defaults=true

@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_13"
+type="Resource"
+uid="uid://dvtcslolplci1"
+path="res://.godot/imported/LeBienHall.dialogue-40ce2d202507eef6b89097ea7fe849c2.tres"
+
+[deps]
+
+source_file="res://dialogue/LeBienHall.dialogue"
+dest_files=["res://.godot/imported/LeBienHall.dialogue-40ce2d202507eef6b89097ea7fe849c2.tres"]
+
+[params]
+
+defaults=true

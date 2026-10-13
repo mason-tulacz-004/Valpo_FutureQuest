@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_13"
+type="Resource"
+uid="uid://bavomg0l6vd5v"
+path="res://.godot/imported/Aysegul.dialogue-a09a80d204cd6152d221c15991ae0d87.tres"
+
+[deps]
+
+source_file="res://dialogue/Aysegul.dialogue"
+dest_files=["res://.godot/imported/Aysegul.dialogue-a09a80d204cd6152d221c15991ae0d87.tres"]
+
+[params]
+
+defaults=true

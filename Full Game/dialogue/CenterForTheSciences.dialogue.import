@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_13"
+type="Resource"
+uid="uid://cbn17n2bc2cge"
+path="res://.godot/imported/CenterForTheSciences.dialogue-3833092a51ff2b0e213658e808b701d3.tres"
+
+[deps]
+
+source_file="res://dialogue/CenterForTheSciences.dialogue"
+dest_files=["res://.godot/imported/CenterForTheSciences.dialogue-3833092a51ff2b0e213658e808b701d3.tres"]
+
+[params]
+
+defaults=true

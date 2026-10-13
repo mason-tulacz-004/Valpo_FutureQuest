@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_13"
+type="Resource"
+uid="uid://ceyatuswubuqx"
+path="res://.godot/imported/PastorJim.dialogue-b72864aae3db776d85a957d0b117f3e1.tres"
+
+[deps]
+
+source_file="res://dialogue/PastorJim.dialogue"
+dest_files=["res://.godot/imported/PastorJim.dialogue-b72864aae3db776d85a957d0b117f3e1.tres"]
+
+[params]
+
+defaults=true

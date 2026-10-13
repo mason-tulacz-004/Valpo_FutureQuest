@@ -1,0 +1,79 @@
+[gd_scene load_steps=15 format=3 uid="uid://bkrn6d8hyso5c"]
+
+[ext_resource type="Script" path="res://menu.gd" id="1_n15lq"]
+[ext_resource type="Texture2D" uid="uid://cg56iu4pevtkc" path="res://Animations/Title_Screen/frame_00_delay-0.2s.png" id="2_8e3wp"]
+[ext_resource type="Texture2D" uid="uid://b1bfg8qw2t7ar" path="res://Animations/Title_Screen/frame_01_delay-0.2s.png" id="3_hwsfh"]
+[ext_resource type="Texture2D" uid="uid://psgcrl1er87j" path="res://Animations/Title_Screen/frame_02_delay-0.2s.png" id="4_ufh4d"]
+[ext_resource type="Texture2D" uid="uid://csx5prxcv2n1s" path="res://Animations/Title_Screen/frame_03_delay-0.2s.png" id="5_qo4w0"]
+[ext_resource type="Texture2D" uid="uid://l0aho3r3rcwo" path="res://Animations/Title_Screen/frame_04_delay-0.2s.png" id="6_f2wa8"]
+[ext_resource type="Texture2D" uid="uid://dy5jtarfafus6" path="res://Animations/Title_Screen/frame_05_delay-0.2s.png" id="7_ijjlm"]
+[ext_resource type="Texture2D" uid="uid://3kpubvj2aeef" path="res://Animations/Title_Screen/frame_06_delay-0.2s.png" id="8_y1rby"]
+[ext_resource type="Texture2D" uid="uid://c85wq7i7febjo" path="res://Animations/Title_Screen/frame_07_delay-0.2s.png" id="9_ra0a1"]
+[ext_resource type="Texture2D" uid="uid://bponsb6d4ycso" path="res://Animations/Title_Screen/frame_08_delay-0.2s.png" id="10_e7ctr"]
+[ext_resource type="Texture2D" uid="uid://dqtnhbqv27ky3" path="res://Animations/Title_Screen/frame_09_delay-0.2s.png" id="11_u0fb2"]
+[ext_resource type="Texture2D" uid="uid://ben6bs4xca210" path="res://Animations/Title_Screen/frame_10_delay-0.2s.png" id="12_q4s6o"]
+[ext_resource type="Texture2D" uid="uid://cm84h0w8p220w" path="res://Animations/Title_Screen/frame_11_delay-0.2s.png" id="13_ry3l2"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_qo1ym"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_8e3wp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_hwsfh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_ufh4d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_qo4w0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_f2wa8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_ijjlm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_y1rby")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_ra0a1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_e7ctr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_u0fb2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_q4s6o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_ry3l2")
+}],
+"loop": true,
+"name": &"Menu",
+"speed": 5.0
+}]
+
+[node name="Menu" type="CanvasLayer"]
+script = ExtResource("1_n15lq")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(1433, 919)
+scale = Vector2(2.84961, 2.31358)
+sprite_frames = SubResource("SpriteFrames_qo1ym")
+animation = &"Menu"
+frame = 11
+frame_progress = 0.760782
+
+[node name="Button" type="Button" parent="."]
+self_modulate = Color(0, 0, 0, 0)
+offset_left = 727.0
+offset_top = 1337.0
+offset_right = 2120.0
+offset_bottom = 1534.0
+
+[connection signal="pressed" from="Button" to="." method="_on_start_button_pressed"]

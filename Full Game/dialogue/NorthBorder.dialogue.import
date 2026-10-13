@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_13"
+type="Resource"
+uid="uid://booukbe7cwcfl"
+path="res://.godot/imported/NorthBorder.dialogue-671679d5462960002701cba101ff9b9d.tres"
+
+[deps]
+
+source_file="res://dialogue/NorthBorder.dialogue"
+dest_files=["res://.godot/imported/NorthBorder.dialogue-671679d5462960002701cba101ff9b9d.tres"]
+
+[params]
+
+defaults=true

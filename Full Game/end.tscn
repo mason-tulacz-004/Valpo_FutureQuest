@@ -1,0 +1,182 @@
+[gd_scene load_steps=9 format=3 uid="uid://dfo2cupcq0dpj"]
+
+[ext_resource type="Texture2D" uid="uid://d2xp3c2abdtt8" path="res://Static Sprites/Black_question_mark.png" id="1_oqjru"]
+[ext_resource type="Script" path="res://end.gd" id="1_u1m25"]
+[ext_resource type="Texture2D" uid="uid://3v0qk7it83ww" path="res://Static Sprites/scroll.png" id="2_1daux"]
+[ext_resource type="Texture2D" uid="uid://tb6qgw4c74tb" path="res://Static Sprites/Chapel_interior.png" id="4_032ys"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_tbms6"]
+bg_color = Color(0.831373, 0.686275, 0.215686, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_uvljb"]
+bg_color = Color(0.831373, 0.686275, 0.215686, 1)
+expand_margin_left = 10.0
+expand_margin_top = 4.0
+expand_margin_right = 10.0
+expand_margin_bottom = 4.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ty4t0"]
+bg_color = Color(0.831373, 0.686275, 0.215686, 1)
+shadow_color = Color(0.831373, 0.686275, 0.215686, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_oi8mt"]
+bg_color = Color(0.831373, 0.686275, 0.215686, 1)
+
+[node name="End" type="Control"]
+z_index = 5
+layout_mode = 3
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_u1m25")
+
+[node name="NinePatchRect" type="NinePatchRect" parent="."]
+layout_mode = 0
+offset_left = -1796.0
+offset_top = -1516.0
+offset_right = -1200.0
+offset_bottom = -1084.0
+scale = Vector2(6, 7.2)
+texture = ExtResource("2_1daux")
+region_rect = Rect2(0, 0, 1536, 1024)
+
+[node name="Title" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 0.5
+offset_left = -120.0
+offset_top = -483.0
+offset_right = 162.0
+offset_bottom = -420.0
+grow_horizontal = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 45
+text = "Congratulations you have completed the game!
+"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Instructions" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -461.0
+offset_top = -434.0
+offset_right = 509.0
+offset_bottom = -371.0
+grow_horizontal = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 45
+text = "Here are your results!"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Result" type="Label" parent="."]
+z_index = 3
+layout_mode = 0
+offset_left = -206.0
+offset_top = -354.0
+offset_right = 154.0
+offset_bottom = -209.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 65
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Return" type="Button" parent="."]
+layout_mode = 0
+offset_left = 290.0
+offset_top = 381.0
+offset_right = 640.0
+offset_bottom = 452.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 45
+theme_override_styles/normal = SubResource("StyleBoxFlat_tbms6")
+action_mode = 0
+text = "Return to game
+"
+
+[node name="PanelContainer" type="PanelContainer" parent="."]
+layout_mode = 0
+offset_left = 726.0
+offset_top = 384.0
+offset_right = 938.0
+offset_bottom = 447.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_uvljb")
+
+[node name="ValpoLink" type="LinkButton" parent="PanelContainer"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 45
+theme_override_styles/focus = SubResource("StyleBoxFlat_ty4t0")
+action_mode = 0
+text = "More Info"
+underline = 2
+uri = "https://www.valpo.edu/valpo-futurequest"
+
+[node name="Exit Game" type="Button" parent="."]
+visible = false
+layout_mode = 0
+offset_left = 726.0
+offset_top = 380.0
+offset_right = 954.0
+offset_bottom = 451.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 45
+theme_override_styles/normal = SubResource("StyleBoxFlat_oi8mt")
+text = "Exit Game"
+
+[node name="Background" type="Sprite2D" parent="."]
+z_index = -1
+position = Vector2(-7.50003, 7.50003)
+scale = Vector2(1.96, 2.023)
+texture = ExtResource("4_032ys")
+
+[node name="Bell Badge" type="Sprite2D" parent="."]
+z_index = 1
+position = Vector2(-538, 156)
+scale = Vector2(0.4, 0.4)
+texture = ExtResource("1_oqjru")
+
+[node name="Waffle Badge" type="Sprite2D" parent="."]
+position = Vector2(-330, 156)
+scale = Vector2(0.4, 0.4)
+texture = ExtResource("1_oqjru")
+
+[node name="Heart Badge" type="Sprite2D" parent="."]
+position = Vector2(-107, 156)
+scale = Vector2(0.4, 0.4)
+texture = ExtResource("1_oqjru")
+
+[node name="Tree Badge" type="Sprite2D" parent="."]
+position = Vector2(113, 156)
+scale = Vector2(0.4, 0.4)
+texture = ExtResource("1_oqjru")
+
+[node name="Book Badge" type="Sprite2D" parent="."]
+position = Vector2(331, 156)
+scale = Vector2(0.4, 0.4)
+texture = ExtResource("1_oqjru")
+
+[node name="Maze Badge" type="Sprite2D" parent="."]
+position = Vector2(541, 158)
+scale = Vector2(0.4, 0.4)
+texture = ExtResource("1_oqjru")
+
+[node name="Shield Badge" type="Sprite2D" parent="."]
+position = Vector2(763, 156)
+scale = Vector2(0.4, 0.4)
+texture = ExtResource("1_oqjru")
+
+[node name="Dog Badge" type="Sprite2D" parent="."]
+position = Vector2(-775, 156)
+scale = Vector2(0.4, 0.4)
+texture = ExtResource("1_oqjru")
+
+[connection signal="pressed" from="Return" to="." method="_on_return_pressed"]
+[connection signal="pressed" from="Exit Game" to="." method="_on_exit_game_pressed"]

@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_13"
+type="Resource"
+uid="uid://btotgp1figfau"
+path="res://.godot/imported/SolarEnergyResearchFacility.dialogue-15a9f3e2098230659315ad396fc7cb8c.tres"
+
+[deps]
+
+source_file="res://dialogue/SolarEnergyResearchFacility.dialogue"
+dest_files=["res://.godot/imported/SolarEnergyResearchFacility.dialogue-15a9f3e2098230659315ad396fc7cb8c.tres"]
+
+[params]
+
+defaults=true

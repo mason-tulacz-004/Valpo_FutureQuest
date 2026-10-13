@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_13"
+type="Resource"
+uid="uid://dq4o0awqa36ue"
+path="res://.godot/imported/Observatory.dialogue-6154544932d692e62a7dec86ade20ea7.tres"
+
+[deps]
+
+source_file="res://dialogue/Observatory.dialogue"
+dest_files=["res://.godot/imported/Observatory.dialogue-6154544932d692e62a7dec86ade20ea7.tres"]
+
+[params]
+
+defaults=true

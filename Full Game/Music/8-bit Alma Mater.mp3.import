@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://biew5cj8lx6u"
+path="res://.godot/imported/8-bit Alma Mater.mp3-c48bb68832cf2bb2f6331f50d6602744.mp3str"
+
+[deps]
+
+source_file="res://Music/8-bit Alma Mater.mp3"
+dest_files=["res://.godot/imported/8-bit Alma Mater.mp3-c48bb68832cf2bb2f6331f50d6602744.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

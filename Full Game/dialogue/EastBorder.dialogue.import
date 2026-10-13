@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_13"
+type="Resource"
+uid="uid://0e86jukt6lho"
+path="res://.godot/imported/EastBorder.dialogue-717b2ec8db9e9d667abb13239eacc4bf.tres"
+
+[deps]
+
+source_file="res://dialogue/EastBorder.dialogue"
+dest_files=["res://.godot/imported/EastBorder.dialogue-717b2ec8db9e9d667abb13239eacc4bf.tres"]
+
+[params]
+
+defaults=true

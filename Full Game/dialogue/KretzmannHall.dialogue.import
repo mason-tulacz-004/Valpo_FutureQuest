@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_13"
+type="Resource"
+uid="uid://12s48xos23an"
+path="res://.godot/imported/KretzmannHall.dialogue-d17073f950491b8ad449f3efdba1b6dd.tres"
+
+[deps]
+
+source_file="res://dialogue/KretzmannHall.dialogue"
+dest_files=["res://.godot/imported/KretzmannHall.dialogue-d17073f950491b8ad449f3efdba1b6dd.tres"]
+
+[params]
+
+defaults=true

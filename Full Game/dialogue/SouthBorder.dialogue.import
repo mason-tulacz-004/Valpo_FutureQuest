@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_13"
+type="Resource"
+uid="uid://c73cy6wn421l1"
+path="res://.godot/imported/SouthBorder.dialogue-6db2ea526f32078460f7d8abacf4d37b.tres"
+
+[deps]
+
+source_file="res://dialogue/SouthBorder.dialogue"
+dest_files=["res://.godot/imported/SouthBorder.dialogue-6db2ea526f32078460f7d8abacf4d37b.tres"]
+
+[params]
+
+defaults=true

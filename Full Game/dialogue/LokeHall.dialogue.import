@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_13"
+type="Resource"
+uid="uid://c0gnmbnoopigp"
+path="res://.godot/imported/LokeHall.dialogue-0e627b66dcb3fa2f66bdb6318c6760ea.tres"
+
+[deps]
+
+source_file="res://dialogue/LokeHall.dialogue"
+dest_files=["res://.godot/imported/LokeHall.dialogue-0e627b66dcb3fa2f66bdb6318c6760ea.tres"]
+
+[params]
+
+defaults=true

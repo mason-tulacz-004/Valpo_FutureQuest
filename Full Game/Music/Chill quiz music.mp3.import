@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://de4gkywwrq0i"
+path="res://.godot/imported/Chill quiz music.mp3-9d780221aafd5e252adf576a57c8a88f.mp3str"
+
+[deps]
+
+source_file="res://Music/Chill quiz music.mp3"
+dest_files=["res://.godot/imported/Chill quiz music.mp3-9d780221aafd5e252adf576a57c8a88f.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

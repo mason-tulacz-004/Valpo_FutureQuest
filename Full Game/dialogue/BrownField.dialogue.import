@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_13"
+type="Resource"
+uid="uid://clxvushv3yp60"
+path="res://.godot/imported/BrownField.dialogue-018bf47c80a16d62fd7d4e33fdc9ffc5.tres"
+
+[deps]
+
+source_file="res://dialogue/BrownField.dialogue"
+dest_files=["res://.godot/imported/BrownField.dialogue-018bf47c80a16d62fd7d4e33fdc9ffc5.tres"]
+
+[params]
+
+defaults=true

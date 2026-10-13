@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_13"
+type="Resource"
+uid="uid://bpq4uh3g5kesj"
+path="res://.godot/imported/KissingBridge.dialogue-f58f764a89d52377a874cf43b54df978.tres"
+
+[deps]
+
+source_file="res://dialogue/KissingBridge.dialogue"
+dest_files=["res://.godot/imported/KissingBridge.dialogue-f58f764a89d52377a874cf43b54df978.tres"]
+
+[params]
+
+defaults=true

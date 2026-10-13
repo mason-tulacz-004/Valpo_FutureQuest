@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_13"
+type="Resource"
+uid="uid://dm41lomvh6cen"
+path="res://.godot/imported/Beacon.dialogue-0f8eab9580bb0a09d84597a68c2c7c4b.tres"
+
+[deps]
+
+source_file="res://dialogue/Beacon.dialogue"
+dest_files=["res://.godot/imported/Beacon.dialogue-0f8eab9580bb0a09d84597a68c2c7c4b.tres"]
+
+[params]
+
+defaults=true

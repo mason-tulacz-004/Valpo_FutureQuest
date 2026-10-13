@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_13"
+type="Resource"
+uid="uid://dvt3vgv3c1o0k"
+path="res://.godot/imported/Mason.dialogue-eb8a33bbe97ee47dfaccc6b665a6cfbc.tres"
+
+[deps]
+
+source_file="res://dialogue/Mason.dialogue"
+dest_files=["res://.godot/imported/Mason.dialogue-eb8a33bbe97ee47dfaccc6b665a6cfbc.tres"]
+
+[params]
+
+defaults=true

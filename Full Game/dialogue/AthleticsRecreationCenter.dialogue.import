@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_13"
+type="Resource"
+uid="uid://dtq0ncqn1l1vk"
+path="res://.godot/imported/AthleticsRecreationCenter.dialogue-a64be3b98d3464b2890ebb1f396536f3.tres"
+
+[deps]
+
+source_file="res://dialogue/AthleticsRecreationCenter.dialogue"
+dest_files=["res://.godot/imported/AthleticsRecreationCenter.dialogue-a64be3b98d3464b2890ebb1f396536f3.tres"]
+
+[params]
+
+defaults=true

@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_13"
+type="Resource"
+uid="uid://co4bppmhhrk0r"
+path="res://.godot/imported/NeilsScienceCenter.dialogue-46684b5523e79a07580d6beb54bf168f.tres"
+
+[deps]
+
+source_file="res://dialogue/NeilsScienceCenter.dialogue"
+dest_files=["res://.godot/imported/NeilsScienceCenter.dialogue-46684b5523e79a07580d6beb54bf168f.tres"]
+
+[params]
+
+defaults=true

@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_13"
+type="Resource"
+uid="uid://cdmnmiw4gvxqd"
+path="res://.godot/imported/merlin_dialog.dialogue-cb9b4cc4563cdcd5e8e5c4200620f7fb.tres"
+
+[deps]
+
+source_file="res://dialogue/merlin_dialog.dialogue"
+dest_files=["res://.godot/imported/merlin_dialog.dialogue-cb9b4cc4563cdcd5e8e5c4200620f7fb.tres"]
+
+[params]
+
+defaults=true

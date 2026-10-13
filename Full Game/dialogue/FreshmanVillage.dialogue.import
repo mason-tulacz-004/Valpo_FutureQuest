@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_13"
+type="Resource"
+uid="uid://b4hg46a5j7reg"
+path="res://.godot/imported/FreshmanVillage.dialogue-49a3528d137268407acc04fc839a923e.tres"
+
+[deps]
+
+source_file="res://dialogue/FreshmanVillage.dialogue"
+dest_files=["res://.godot/imported/FreshmanVillage.dialogue-49a3528d137268407acc04fc839a923e.tres"]
+
+[params]
+
+defaults=true

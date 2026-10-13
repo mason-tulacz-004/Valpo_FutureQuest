@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_13"
+type="Resource"
+uid="uid://b6thf2vcrvrjs"
+path="res://.godot/imported/Gellerson.dialogue-9b8e34f3bb993111fe35373d26b31904.tres"
+
+[deps]
+
+source_file="res://dialogue/Gellerson.dialogue"
+dest_files=["res://.godot/imported/Gellerson.dialogue-9b8e34f3bb993111fe35373d26b31904.tres"]
+
+[params]
+
+defaults=true

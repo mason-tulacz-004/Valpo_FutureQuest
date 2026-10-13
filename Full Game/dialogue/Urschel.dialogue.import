@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_13"
+type="Resource"
+uid="uid://bqrleuhn5fpsf"
+path="res://.godot/imported/Urschel.dialogue-d6393b89b008ffe366e436c3ca12e7ca.tres"
+
+[deps]
+
+source_file="res://dialogue/Urschel.dialogue"
+dest_files=["res://.godot/imported/Urschel.dialogue-d6393b89b008ffe366e436c3ca12e7ca.tres"]
+
+[params]
+
+defaults=true

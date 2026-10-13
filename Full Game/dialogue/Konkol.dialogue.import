@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_13"
+type="Resource"
+uid="uid://cpf2is6sttvub"
+path="res://.godot/imported/Konkol.dialogue-94bbadae2a6c04a325b9c02c79fe52a2.tres"
+
+[deps]
+
+source_file="res://dialogue/Konkol.dialogue"
+dest_files=["res://.godot/imported/Konkol.dialogue-94bbadae2a6c04a325b9c02c79fe52a2.tres"]
+
+[params]
+
+defaults=true

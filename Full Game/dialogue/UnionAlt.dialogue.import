@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_13"
+type="Resource"
+uid="uid://cu13lsq0u0fry"
+path="res://.godot/imported/UnionAlt.dialogue-d42b9c12e3fb0d3a08ec15653daf924b.tres"
+
+[deps]
+
+source_file="res://dialogue/UnionAlt.dialogue"
+dest_files=["res://.godot/imported/UnionAlt.dialogue-d42b9c12e3fb0d3a08ec15653daf924b.tres"]
+
+[params]
+
+defaults=true

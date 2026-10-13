@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_13"
+type="Resource"
+uid="uid://df8irgrn7e3n2"
+path="res://.godot/imported/KadeDuesenburgGermanHouse.dialogue-9856b3b13911db38017c626b92794046.tres"
+
+[deps]
+
+source_file="res://dialogue/KadeDuesenburgGermanHouse.dialogue"
+dest_files=["res://.godot/imported/KadeDuesenburgGermanHouse.dialogue-9856b3b13911db38017c626b92794046.tres"]
+
+[params]
+
+defaults=true

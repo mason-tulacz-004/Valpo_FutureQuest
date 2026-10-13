@@ -1,0 +1,134 @@
+[gd_scene load_steps=26 format=3 uid="uid://dbcxt0csiqv4r"]
+
+[ext_resource type="Script" path="res://popupnotification.gd" id="1_ggsgv"]
+[ext_resource type="Texture2D" uid="uid://dlk6wccyfqvkd" path="res://Animations/shield_frames/shield1.png" id="2_jjfvc"]
+[ext_resource type="Texture2D" uid="uid://cs0sjstgx1f2r" path="res://Animations/shield_frames/shield2.png" id="3_vecpg"]
+[ext_resource type="Texture2D" uid="uid://cjk25mao4oyv5" path="res://Animations/shield_frames/shield3.png" id="4_knsdx"]
+[ext_resource type="Texture2D" uid="uid://bj5u84ubgy3ai" path="res://Animations/shield_frames/shield4.png" id="5_53cdv"]
+[ext_resource type="Texture2D" uid="uid://20onfhf78tgr" path="res://Animations/shield_frames/shield5.png" id="6_l56fs"]
+[ext_resource type="Texture2D" uid="uid://406rn13a12s2" path="res://Animations/shield_frames/shield6.png" id="7_h0p6t"]
+[ext_resource type="Texture2D" uid="uid://c0vw2i1gfv2fm" path="res://Animations/Bell_Ringing/frame_0_delay-0.2s.png" id="8_xi1a8"]
+[ext_resource type="Texture2D" uid="uid://b0u5p8dhir6qw" path="res://Animations/Bell_Ringing/frame_1_delay-0.2s.png" id="9_5caac"]
+[ext_resource type="Texture2D" uid="uid://eluq84ei4ssb" path="res://Animations/Bell_Ringing/frame_2_delay-0.2s.png" id="10_yu40f"]
+[ext_resource type="Texture2D" uid="uid://bbnx5wmjif8ad" path="res://Animations/Bell_Ringing/frame_3_delay-0.2s.png" id="11_ckoxm"]
+[ext_resource type="Texture2D" uid="uid://dcvlhbfylwb7c" path="res://Animations/Compass/frame_0_delay-0.35s.png" id="12_r3xhj"]
+[ext_resource type="Texture2D" uid="uid://bxy6k53lp17sl" path="res://Animations/Compass/frame_1_delay-0.35s.png" id="13_5qkga"]
+[ext_resource type="Texture2D" uid="uid://cfoixsk50u0mw" path="res://Animations/Compass/frame_2_delay-0.35s.png" id="14_brj7l"]
+[ext_resource type="Texture2D" uid="uid://cluinh48skfuj" path="res://Animations/Compass/frame_3_delay-0.35s.png" id="15_kb2e3"]
+[ext_resource type="Texture2D" uid="uid://bd3swps2oj067" path="res://Animations/Compass/frame_4_delay-5s.png" id="16_n2hcs"]
+[ext_resource type="Texture2D" uid="uid://beryjuu3wlqpc" path="res://Animations/Loke_Flag/frame_0_delay-0.2s.png" id="17_p58sl"]
+[ext_resource type="Texture2D" uid="uid://m2fx36crffyn" path="res://Animations/Loke_Flag/frame_1_delay-0.2s.png" id="18_sn506"]
+[ext_resource type="Texture2D" uid="uid://bboy0s782082p" path="res://Animations/Loke_Flag/frame_2_delay-0.2s.png" id="19_ugdy5"]
+[ext_resource type="Texture2D" uid="uid://bi31v8sstiopf" path="res://Animations/Loke_Flag/frame_3_delay-0.2s.png" id="20_01xno"]
+[ext_resource type="Texture2D" uid="uid://dai1egeocusyc" path="res://Animations/Loke_Flag/frame_4_delay-0.2s.png" id="21_a3a30"]
+[ext_resource type="Texture2D" uid="uid://xj0y4afjty7f" path="res://Animations/Loke_Flag/frame_5_delay-0.2s.png" id="22_oalkd"]
+[ext_resource type="Texture2D" uid="uid://dm7u48807tl1n" path="res://Animations/Heart/frame_0_delay-0.5s.png" id="23_cuoeu"]
+[ext_resource type="Texture2D" uid="uid://bytwukfi2f4ac" path="res://Animations/Heart/frame_1_delay-0.5s.png" id="24_mwey4"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_tjvvl"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_jjfvc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_vecpg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_knsdx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_53cdv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_l56fs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_h0p6t")
+}],
+"loop": true,
+"name": &"Achievement",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("8_xi1a8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_5caac")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_yu40f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_ckoxm")
+}],
+"loop": true,
+"name": &"Bell",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("12_r3xhj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_5qkga")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_brj7l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_kb2e3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_n2hcs")
+}],
+"loop": true,
+"name": &"Compass",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("17_p58sl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_sn506")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_ugdy5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_01xno")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_a3a30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_oalkd")
+}],
+"loop": true,
+"name": &"Flag",
+"speed": 6.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("23_cuoeu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_mwey4")
+}],
+"loop": true,
+"name": &"Heart",
+"speed": 2.0
+}]
+
+[node name="Achievement" type="CanvasLayer"]
+script = ExtResource("1_ggsgv")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(1478, 941)
+scale = Vector2(0.1, 0.1)
+sprite_frames = SubResource("SpriteFrames_tjvvl")
+animation = &"Heart"
+autoplay = "Achievement"
+frame_progress = 0.268852

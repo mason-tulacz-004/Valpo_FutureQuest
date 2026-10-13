@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_13"
+type="Resource"
+uid="uid://c8u8d48u50yrw"
+path="res://.godot/imported/LeBeinAnnexB.dialogue-555289005f714127304f9b361aaaac67.tres"
+
+[deps]
+
+source_file="res://dialogue/LeBeinAnnexB.dialogue"
+dest_files=["res://.godot/imported/LeBeinAnnexB.dialogue-555289005f714127304f9b361aaaac67.tres"]
+
+[params]
+
+defaults=true

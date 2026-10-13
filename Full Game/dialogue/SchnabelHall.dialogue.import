@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_13"
+type="Resource"
+uid="uid://ca8yywued2xym"
+path="res://.godot/imported/SchnabelHall.dialogue-044c0b911d8bd6ffba46f2ca8eea2322.tres"
+
+[deps]
+
+source_file="res://dialogue/SchnabelHall.dialogue"
+dest_files=["res://.godot/imported/SchnabelHall.dialogue-044c0b911d8bd6ffba46f2ca8eea2322.tres"]
+
+[params]
+
+defaults=true

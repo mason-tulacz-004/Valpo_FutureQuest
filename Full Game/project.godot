@@ -1,0 +1,58 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="ValpoGame"
+run/main_scene="res://Environment.tscn"
+config/features=PackedStringArray("4.3", "Forward Plus")
+run/max_fps=60
+boot_splash/show_image=false
+boot_splash/fullsize=false
+boot_splash/use_filter=false
+config/icon="res://Animations/shield_frames/shield1.png"
+
+[autoload]
+
+DialogueManager="*res://addons/dialogue_manager/dialogue_manager.gd"
+Global="*res://global.gd"
+
+[dialogue_manager]
+
+general/balloon_path="res://dialogue/balloon.tscn"
+
+[display]
+
+window/size/viewport_width=2900
+window/size/viewport_height=2000
+window/stretch/mode="canvas_items"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/dialogue_manager/plugin.cfg")
+
+[internationalization]
+
+locale/translations_pot_files=PackedStringArray("res://dialogue/merlin_dialog.dialogue", "res://dialogue/SouthBorder.dialogue", "res://dialogue/WestBorder.dialogue", "res://dialogue/NorthBorder.dialogue", "res://dialogue/EastBorder.dialogue", "res://dialogue/Beacon.dialogue", "res://dialogue/Blaze.dialogue", "res://dialogue/WelcomeCenter.dialogue", "res://dialogue/HarreUnion.dialogue", "res://dialogue/KretzmannHall.dialogue", "res://dialogue/CenterForTheSciences.dialogue", "res://dialogue/ChristopherCenterLibrary.dialogue", "res://dialogue/ValparaisoUniversityCenterForTheArts.dialogue", "res://dialogue/Gellerson.dialogue", "res://dialogue/ArtsAndSciencesBuilding.dialogue", "res://dialogue/AthleticsRecreationCenter.dialogue", "res://dialogue/Chapel.dialogue", "res://dialogue/Urschel.dialogue", "res://dialogue/KallayChristopherHall.dialogue", "res://dialogue/BrownField.dialogue", "res://dialogue/LeBienHall.dialogue", "res://dialogue/MuellerHall.dialogue", "res://dialogue/KadeDuesenburgGermanHouse.dialogue", "res://dialogue/GuildMemorialHall.dialogue", "res://dialogue/NeilsScienceCenter.dialogue", "res://dialogue/BeaconHall.dialogue", "res://dialogue/RinSiebertFitnessCenter.dialogue", "res://dialogue/SolarEnergyResearchFacility.dialogue", "res://dialogue/FreshmanVillage.dialogue", "res://dialogue/LeBeinAnnexB.dialogue", "res://dialogue/LokeHall.dialogue", "res://dialogue/KissingBridge.dialogue", "res://dialogue/Konkol.dialogue", "res://dialogue/SchnabelHall.dialogue", "res://dialogue/Mason.dialogue", "res://dialogue/Martin.dialogue", "res://dialogue/Aysegul.dialogue", "res://dialogue/PastorJim.dialogue", "res://dialogue/Observatory.dialogue", "res://dialogue/InnovationHub.dialogue", "res://dialogue/UnionAlt.dialogue")
+
+[layer_names]
+
+2d_physics/layer_5="Actionables"
+
+[physics]
+
+2d/default_gravity=0.0
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+textures/vram_compression/import_etc2_astc=true
+environment/defaults/default_clear_color=Color(0.000113828, 0.000113828, 0.000113828, 1)

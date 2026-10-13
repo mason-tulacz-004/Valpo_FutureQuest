@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_13"
+type="Resource"
+uid="uid://6gqmj1bbk05u"
+path="res://.godot/imported/RinSiebertFitnessCenter.dialogue-dfceb56f5bf832b5b94e9de9280a084a.tres"
+
+[deps]
+
+source_file="res://dialogue/RinSiebertFitnessCenter.dialogue"
+dest_files=["res://.godot/imported/RinSiebertFitnessCenter.dialogue-dfceb56f5bf832b5b94e9de9280a084a.tres"]
+
+[params]
+
+defaults=true

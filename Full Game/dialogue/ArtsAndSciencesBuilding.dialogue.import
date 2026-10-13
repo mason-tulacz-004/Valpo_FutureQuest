@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_13"
+type="Resource"
+uid="uid://dr6sdhau0bobw"
+path="res://.godot/imported/ArtsAndSciencesBuilding.dialogue-3410262ed73d6ec16a8f09e969bea8e7.tres"
+
+[deps]
+
+source_file="res://dialogue/ArtsAndSciencesBuilding.dialogue"
+dest_files=["res://.godot/imported/ArtsAndSciencesBuilding.dialogue-3410262ed73d6ec16a8f09e969bea8e7.tres"]
+
+[params]
+
+defaults=true

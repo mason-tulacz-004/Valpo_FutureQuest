@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://b3po6wrb26gta"
+path="res://.godot/imported/8-Bit Fight Song.mp3-79f99a025c1042ca061b0be1b633d668.mp3str"
+
+[deps]
+
+source_file="res://Music/8-Bit Fight Song.mp3"
+dest_files=["res://.godot/imported/8-Bit Fight Song.mp3-79f99a025c1042ca061b0be1b633d668.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

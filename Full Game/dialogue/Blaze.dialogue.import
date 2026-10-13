@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_13"
+type="Resource"
+uid="uid://6wxqg7kxkn1t"
+path="res://.godot/imported/Blaze.dialogue-058a54c6272c611d8387f1894a45e410.tres"
+
+[deps]
+
+source_file="res://dialogue/Blaze.dialogue"
+dest_files=["res://.godot/imported/Blaze.dialogue-058a54c6272c611d8387f1894a45e410.tres"]
+
+[params]
+
+defaults=true

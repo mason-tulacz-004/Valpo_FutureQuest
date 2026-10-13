@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_13"
+type="Resource"
+uid="uid://b82g3vy5xd3xd"
+path="res://.godot/imported/InnovationHub.dialogue-adc1b3a43271357dd66f9dcd94d530a6.tres"
+
+[deps]
+
+source_file="res://dialogue/InnovationHub.dialogue"
+dest_files=["res://.godot/imported/InnovationHub.dialogue-adc1b3a43271357dd66f9dcd94d530a6.tres"]
+
+[params]
+
+defaults=true

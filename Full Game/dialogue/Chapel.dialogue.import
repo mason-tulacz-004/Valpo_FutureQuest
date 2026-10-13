@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_13"
+type="Resource"
+uid="uid://d0fn5wo0dwd5m"
+path="res://.godot/imported/Chapel.dialogue-85b2cd9cc5f41fc1a7be53b0a71b103f.tres"
+
+[deps]
+
+source_file="res://dialogue/Chapel.dialogue"
+dest_files=["res://.godot/imported/Chapel.dialogue-85b2cd9cc5f41fc1a7be53b0a71b103f.tres"]
+
+[params]
+
+defaults=true

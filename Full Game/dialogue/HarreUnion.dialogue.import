@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_13"
+type="Resource"
+uid="uid://b52m0fbfwk8et"
+path="res://.godot/imported/HarreUnion.dialogue-0e331f25f79151d727e5c2182e69e040.tres"
+
+[deps]
+
+source_file="res://dialogue/HarreUnion.dialogue"
+dest_files=["res://.godot/imported/HarreUnion.dialogue-0e331f25f79151d727e5c2182e69e040.tres"]
+
+[params]
+
+defaults=true
